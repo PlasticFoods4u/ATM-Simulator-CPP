@@ -4,6 +4,10 @@ A console-based ATM simulator built using C++.
 
 This project was created to practice programming fundamentals including loops, conditionals, user input handling, random number generation, and basic banking operations.
 
+## Play Instantly In Your Browser
+**[Click here to play the game!](https://onlinegdb.com/TjHZvtJ-d)**
+its a OnlineGDB (Online Compiler) link.
+
 ## Features
 
 - PIN authentication system
