@@ -1,12 +1,17 @@
-# ATM Simulator (C++)
+# ATM Simulator (C\+\+)
 
-A console-based ATM simulator built using C++.
+A console\-based ATM simulator built using C\+\+.
 
-This project was created to practice programming fundamentals including loops, conditionals, user input handling, random number generation, and basic banking operations.
+This project was created while learning C\+\+ fundamentals and focuses on user input handling, program structure, functions, references, validation, and basic banking operations.
 
 ## Play Instantly In Your Browser
-**[Click here to play the game!](https://onlinegdb.com/TjHZvtJ-d)**
-its a OnlineGDB (Online Compiler) link.
+
+**OnlineGDB:**
+
+[Play Here](https://onlinegdb.com/sAY4smVC1)
+
+Or copy and paste:
+https://onlinegdb.com/sAY4smVC1
 
 ## Features
 
@@ -16,18 +21,24 @@ its a OnlineGDB (Online Compiler) link.
 - Balance checking
 - Money deposits
 - Money withdrawals
+- Withdrawal protection against overdrafts
 - Simple interest calculator
-- Coin-flip gambling bonus game
+- Coin\-flip gambling bonus game
+- Input validation for integers and floating\-point numbers
 - Account freeze system for suspicious input
 
-## Technologies Used
+## Technologies and Concepts Used
 
-- C++
-- Conditional statements
+- C\+\+
+- Functions
+- Function overloading
+- References (&)
 - Loops
-- Random number generation
-- Input validation
+- Conditional statements
 - Switch statements
+- Random number generation (rand())
+- Input validation
+- Passing variables by reference
 
 ## Program Menu
 
@@ -42,41 +53,33 @@ its a OnlineGDB (Online Compiler) link.
 
 During this project I practiced:
 
-- Designing menu-driven applications
-- Managing user authentication
-- Working with random values using `rand()`
-- Handling multiple program states
-- Creating banking-style transactions
-- Improving program flow and structure
+- Designing menu\-driven applications
+- Creating reusable functions
+- Passing variables by reference
+- Function overloading
+- Handling user authentication
+- Working with random values using rand()
+- Validating user input
+- Managing shared program data such as account balance
+- Improving code organization and readability
 
 ## Project Goal
 
-This project was built as part of my journey learning C++ and computer science fundamentals.
+This project was built as part of my journey learning C\+\+ and computer science fundamentals.
 
-Rather than rebuilding the project every time I learn something new, I plan to continuously improve and expand it throughout my studies. This repository serves as a record of my progress as I develop better programming practices and learn more advanced concepts.
-
-## Planned Improvements
-
-As I continue learning, I plan to:
-
-- Improve input validation
-- Remove `goto` statements and use cleaner program flow
-- Prevent invalid transactions and overdrafts
-- Add file handling to save account data
-- Allow PIN changes
-- Implement transaction history
-- Refactor the project using Object-Oriented Programming (OOP)
-- Improve code organization and readability
-
-This project will evolve over time as I gain new skills and experience in C++.
+Rather than rebuilding the project every time I learn something new, I plan to revisit and improve it as I continue learning. This repository serves as a record of my progress and shows how my programming skills change over time.
 
 ## How to Run
 
 1. Download the source code
-2. Compile using a C++ compiler
+2. Compile using a C\+\+ compiler
 3. Run the executable
-4. Enter the PIN (1234) and use the ATM menu
+4. Enter the default PIN: 1234
+5. Use the ATM menu
 
 ## Author
 
-Created as a learning project while studying C++.
+Created as a personal learning project while studying C\+\+.
+
+This project represents an early milestone in my programming journey and will continue to evolve as I learn more advanced concepts.
+
